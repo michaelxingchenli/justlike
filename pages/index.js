@@ -5,60 +5,36 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>JustLike Media</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <header>
+        <div className={styles.header}>
+          <img src="img/logo.png" />
+          <span>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">中文</a>
+          </span>
         </div>
+      </header>
+
+      <main className={styles.main}>
+        <div>This is a video</div>
+        <div>This is a intro</div>        
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <div class="row">
+					 <div class="col-md-8 offset-md-2 col-sm-12 offset-md-0">		<div class="footer-social">
+			<div class="footer-social-icons"><a target="_blank" href="mailto:justlikemedialtd@gmail.com" title="email"><i class="fa fa fa-envelope-o"></i></a><a target="_blank" href="https://youtu.be/qc43tBGvSto" title="youtube"><i class="fa fa fa-youtube-square"></i></a></div>		</div>
+		</div>				</div>
+
+    <div class="site-info">
+            <div class="container">
+                                MICRO FILM | ADVERTISING | TV SHOW | EVENT GALA | VLOG            </div>
+        </div>
       </footer>
     </div>
   )
